@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:my_weather_app/src/core/constants/constants.dart';
 
 ThemeData appTheme = ThemeData(
+  cardTheme: const CardTheme(
+    elevation: 1,
+    color: Colors.white,
+  ),
   colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFFF5700)),
   textTheme: const TextTheme(
     headlineMedium: TextStyle(

@@ -18,7 +18,6 @@ class WeatherLoadedWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Card(
-          elevation: 0.5,
           child: AspectRatio(
             aspectRatio: MediaQuery.sizeOf(context).width < 300 ? 4 / 3 : 16 / 9,
             child: CachedNetworkImage(
